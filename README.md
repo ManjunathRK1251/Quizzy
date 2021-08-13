@@ -1,4 +1,5 @@
-# quizzler
+# quizzy
+A simple true or false quiz app
 
 A new Flutter project.
 
