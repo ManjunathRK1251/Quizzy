@@ -12,6 +12,7 @@ class Quizzler extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.grey.shade900,
+        //backgroundColor: Colors.white10,
         body: SafeArea(
           child: Padding(
             padding: EdgeInsets.symmetric(horizontal: 10.0),
@@ -50,6 +51,12 @@ class _QuizPageState extends State<QuizPage> {
         quizBrain.nextQuestion();
       } else {
         Alert(
+                closeIcon: Icon(Icons.close, color: Colors.white),
+                style: AlertStyle(
+                  backgroundColor: Colors.grey.shade900,
+                  titleStyle: TextStyle(color: Colors.white),
+                  descStyle: TextStyle(color: Colors.white),
+                ),
                 context: context,
                 title: "Finished!!🥳",
                 desc: "You've reached the end of the quiz")
@@ -87,6 +94,7 @@ class _QuizPageState extends State<QuizPage> {
             padding: EdgeInsets.all(15.0),
             child: TextButton(
               style: TextButton.styleFrom(
+                elevation: 5.0,
                 backgroundColor: Colors.green,
               ),
               child: Text(
@@ -107,6 +115,7 @@ class _QuizPageState extends State<QuizPage> {
             padding: EdgeInsets.all(15.0),
             child: TextButton(
               style: TextButton.styleFrom(
+                elevation: 5.0,
                 backgroundColor: Colors.red,
               ),
               child: Text(
