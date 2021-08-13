@@ -3,7 +3,7 @@ A simple true or false quiz app
 <h4>Screenshot</h4>
 <img src = "Screenshots/qemu-system-x86_64_U5pIr9dOTG.png" width="200" height="400">
 <img src = "Screenshots/qemu-system-x86_64_fFCukwF7ZD.png" width="200" height="400">
-<img src = "Screenshots/qemu-system-x86_64_doXci68fW2.png" width="200" height="400">
+<img src = "Screenshots/qemu-system-x86_64_iu81ETyCNi.png" width="200" height="400">
 A new Flutter project.
 
 ## Getting Started
